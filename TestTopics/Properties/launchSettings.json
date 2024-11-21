@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "TestTopics": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7221"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker",
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "httpPort": 33474,
+      "useSSL": false
+    }
+  }
+}
